@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Album - Gianluca Biasatti Photography</title>
+  <title>Gianluca Biasatti Photography</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="style.css" rel="stylesheet">
 </head>
@@ -10,20 +10,29 @@
   <header>
     <div class="logo">Gianluca Biasatti Photography</div>
     <nav>
-      <a href="index.html">Main</a>
-      <a href="gallery.html" class="active">Gallery</a>
+      <a href="index.html" class="active">Main</a>
+      <a href="gallery.html">Gallery</a>
     </nav>
   </header>
   <main>
-    <div id="album-title" class="album-title-large"></div>
-    <div class="photo-grid" id="photo-grid"></div>
-    <div class="lightbox" id="lightbox">
-      <span class="close" id="close-lightbox">&times;</span>
-      <img class="lightbox-img" id="lightbox-img" src="" alt="">
-      <span class="arrow left" id="lightbox-prev">&#10094;</span>
-      <span class="arrow right" id="lightbox-next">&#10095;</span>
+    <div class="slideshow-container">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80" class="slide active" alt="Slideshow 1">
+      <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1200&q=80" class="slide" alt="Slideshow 2">
+      <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80" class="slide" alt="Slideshow 3">
+      <img src="https://images.unsplash.com/photo-1465101178521-c1a9136a3be5?auto=format&fit=crop&w=1200&q=80" class="slide" alt="Slideshow 4">
+      <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1200&q=80" class="slide" alt="Slideshow 5">
+      <img src="https://images.unsplash.com/photo-1465101062946-4377e57745c3?auto=format&fit=crop&w=1200&q=80" class="slide" alt="Slideshow 6">
+      <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1200&q=80" class="slide" alt="Slideshow 7">
+      <img src="https://images.unsplash.com/photo-1465101178521-c1a9136a3be5?auto=format&fit=crop&w=1200&q=80" class="slide" alt="Slideshow 8">
+      <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1200&q=80" class="slide" alt="Slideshow 9">
+      <img src="https://images.unsplash.com/photo-1465101062946-4377e57745c3?auto=format&fit=crop&w=1200&q=80" class="slide" alt="Slideshow 10">
+      <span class="slideshow-arrow left" id="slideshow-prev">&#10094;</span>
+      <span class="slideshow-arrow right" id="slideshow-next">&#10095;</span>
     </div>
   </main>
+  <footer>
+    <span class="footer-text">gianluca biasatti copyright</span>
+  </footer>
   <script src="main.js"></script>
 </body>
 </html>
